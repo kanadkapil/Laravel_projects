@@ -1,0 +1,116 @@
+🔍 Getting Started: View All Commands
+
+php artisan list
+
+
+📚 Common Artisan Commands by Category
+🏗️ Project Setup & Environment
+
+php artisan serve            # Start local development server
+php artisan config:cache     # Cache the config files
+php artisan config:clear     # Clear the config cache
+php artisan env              # Display the current environment
+php artisan key:generate     # Generate a new application key
+php artisan optimize         # Cache routes, config, views, etc.
+php artisan optimize:clear   # Clear all optimization caches
+
+
+📦 Composer Integration
+
+composer install             # Install dependencies
+composer update              # Update dependencies
+
+🗃️ Database & Migrations
+
+php artisan migrate                  # Run migrations
+php artisan migrate:rollback        # Rollback last migration batch
+php artisan migrate:reset           # Rollback all migrations
+php artisan migrate:refresh         # Reset and re-run all migrations
+php artisan migrate:fresh           # Drop all tables and re-run migrations
+php artisan make:migration <name>   # Create new migration file
+
+
+🧪 Seeding & Factories
+
+php artisan db:seed                  # Run database seeders
+php artisan db:wipe                  # Drop all tables
+php artisan make:seeder <name>      # Create a seeder
+php artisan make:factory <name>     # Create a model factory
+
+
+🧰 Make Commands (Code Generation)
+
+php artisan make:controller <name>       # Create controller
+php artisan make:model <name>           # Create model
+php artisan make:migration <name>       # Create migration
+php artisan make:middleware <name>      # Create middleware
+php artisan make:request <name>         # Create form request class
+php artisan make:resource <name>        # Create API resource
+php artisan make:seeder <name>          # Create seeder
+php artisan make:command <name>         # Create custom Artisan command
+php artisan make:policy <name>          # Create policy
+php artisan make:event <name>           # Create event
+php artisan make:listener <name>        # Create listener
+php artisan make:job <name>             # Create queued job
+php artisan make:notification <name>    # Create notification
+
+🌐 Routing
+
+php artisan route:list         # List all registered routes
+php artisan route:clear        # Clear route cache
+php artisan route:cache        # Cache routes
+
+
+🖼️ Views
+
+php artisan view:clear         # Clear compiled views
+
+
+🧠 Caching
+
+php artisan cache:clear        # Clear application cache
+php artisan config:cache       # Cache configuration
+php artisan route:cache        # Cache routes
+php artisan view:clear         # Clear compiled views
+
+
+👮 Auth & Security
+
+php artisan make:auth          # (Laravel <=6, older auth scaffolding)
+php artisan ui bootstrap --auth   # (Laravel UI package)
+
+
+🧾 Queue & Jobs
+
+php artisan queue:work         # Process the next job on the queue
+php artisan queue:listen       # Listen to a queue
+php artisan queue:restart      # Restart workers
+php artisan queue:table        # Create migration for jobs table
+php artisan make:job <name>    # Create new job
+
+📨 Mail
+
+php artisan make:mail <name>   # Create a mailable class
+
+🧪 Testing
+
+php artisan test               # Run tests (uses PHPUnit)
+
+🔧 Custom Commands
+
+php artisan make:command MyCommand   # Make your own Artisan command
+
+💡 Tips
+
+php artisan migrate --help
+
+
+
+
+
+
+
+
+
+
+
